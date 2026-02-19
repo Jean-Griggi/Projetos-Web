@@ -9,3 +9,9 @@ Este repositório é dedicado ao armazenamento de projetos desenvolvidos durante
 * **Versionamento:** Boas práticas no uso de Git e GitHub para controle de código.
 
 ---
+## 📁 Meus Projetos
+
+| Projeto | Status | Link |
+|:--- |:--- |:--- |
+| 🎮 Jogo da Velha | ✅ Concluído | [Ver pasta](./Jogo_da_Velha) |
+| 🎬 Cinema | 🚧 Em progresso | [Ver pasta](./Cinema) |
