@@ -1,0 +1,79 @@
+@font-face {
+    font-family: triste;
+    src: url('/fontes/Stardew\ Valley\ ALL\ CAPS.ttf');
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/imagens/xl4hlcp9bu871.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+h1{
+    color: #ffcf31a0;
+    text-align: center;
+    font-family: 'triste';
+    font-size: 100px;
+    
+}
+p{
+    color: #918576;
+    text-align: justify;
+    font-size: 17px;
+
+}
+.box{
+    
+    height: auto;
+    width: 200px;
+    background-color: #7D4E38;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+nav a{
+    color: #FFD700;
+    text-decoration: none;
+    opacity: 1;
+}
+
+nav a:hover{
+text-decoration: underline;
+color: #E67E22;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#textao{
+    color: #918576;
+    text-align: justify;
+}
+
+img{
+    opacity: 0.5;
+    transition: opacity 0.8 ease-in-out;
+    border-radius: 20px;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+}
