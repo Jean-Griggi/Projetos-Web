@@ -9,11 +9,3 @@ Este repositório é dedicado ao armazenamento de projetos desenvolvidos durante
 * **Versionamento:** Boas práticas no uso de Git e GitHub para controle de código.
 
 ---
-
-### 🛠️ Como rodar o projeto
-
-Para testar os projetos localmente, você pode seguir estes passos:
-
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/Jean-Griggi/Projetos-Web.git](https://github.com/Jean-Griggi/Projetos-Web.git)
