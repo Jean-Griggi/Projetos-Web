@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Velha</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <h1 class="game-title">Jogo da Velha</h1>
+
+<div class="score-container">
+    <div class="score-box">X: <span id="score-x">0</span></div>
+    <div class="score-box">O: <span id="score-o">0</span></div>
+</div>
+    <div class="board x">
+        <div class="cell x" data-cell></div>
+        <div class="cell circle" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+
+    <div class="winning-menssage" data-winning-menssage>
+        <p>X Venceu!</p>
+        <button class="winning-button">Reiniciar!</button>
+    </div>
+    <script src="/JS/scripts.js"></script>
+</body>
+</html>
