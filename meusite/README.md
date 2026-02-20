@@ -1,6 +1,6 @@
 🌾 Meu Primeiro Site: Stardew Valley Fan Page
 
-Este foi o meu primeiro passo no mundo do desenvolvimento web! Decidi criar uma página dedicada ao Stardew Valley para colocar em prática tudo o que aprendi sobre estruturação e estilização básica.
+Este foi o meu primeiro passo no mundo do desenvolvimento web!
 🏆 O que eu conquistei neste projeto:
 
     Primeiro contato com HTML5: Aprendi a organizar textos, links e imagens de forma estruturada.
