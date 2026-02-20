@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'starbim';
+    src: url(/font/starbim/Starbim.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+body {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+        url(/fotos/file.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    transition: 0.5s;
+}
+
+body.claro {
+    background-image:
+        linear-gradient(rgba(133, 133, 133, 0.267), rgba(119, 119, 119, 0.7)),
+        url(/fotos/9afe0493484903.5e66500f8dea4.gif);
+    color: black;
+}
+
+.tema-fixo {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid chocolate;
+    margin-bottom: 20px;
+    object-position: top;
+    transition: 0.5s;
+    opacity: 65%;
+}
+
+.portifolio {
+    font-family: 'starbim';
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.pessoal {
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+#habilidade {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'starbim';
+    font-size: 14px;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: chocolate;
+    transform: translateY(-3px);
+}
+
+.info {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.secao-projeto h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.lista-projeto {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    width: 320px;
+}
+
+.projeto {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(8px);
+    padding: 25px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.08);
+    cursor: pointer;
+    height: 100%;
+}
+
+.projeto h3 {
+    margin-bottom: 10px;
+    color: chocolate;
+}
+
+.projeto:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 40px chocolate;
+    border: 1px solid chocolate;
+}
+
+.rodape {
+    margin-top: 80px;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.links a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: chocolate;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: chocolate;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+
+.direitos {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+}
