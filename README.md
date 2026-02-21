@@ -1,4 +1,4 @@
-# 🚀 Projetos-Web
+<img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/ff6b51ec-dbba-435c-b14f-2a10634a5b3d" /># 🚀 Projetos-Web
 
 Este repositório é dedicado ao armazenamento de projetos desenvolvidos durante minhas aulas de Desenvolvimento Web, atividades práticas e desafios de código. Aqui documento minha evolução técnica e a aplicação de novos conceitos em cenários reais.
 
@@ -15,3 +15,4 @@ Este repositório é dedicado ao armazenamento de projetos desenvolvidos durante
 |:--- |:--- |:--- |
 | 🎮 Jogo da Velha | ✅ Concluído | [Ver pasta](./Jogo_da_Velha) |
 | 🎬 Cinema | 🚧 Em progresso | [Ver pasta](./Cinema) |
+| <img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/27d8da96-a208-4ffd-9c75-7b7f8015f084" />
