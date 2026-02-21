@@ -15,4 +15,4 @@ Este repositório é dedicado ao armazenamento de projetos desenvolvidos durante
 |:--- |:--- |:--- |
 | 🎮 Jogo da Velha | ✅ Concluído | [Ver pasta](./Jogo_da_Velha) |
 | 🎬 Cinema | 🚧 Em progresso | [Ver pasta](./Cinema) |
-| <img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/27d8da96-a208-4ffd-9c75-7b7f8015f084" />
+| <img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/27d8da96-a208-4ffd-9c75-7b7f8015f084" /> Fã page de stardew valley| ✅ Concluído | [Ver pasta](./Cinema)
